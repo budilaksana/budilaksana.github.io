@@ -33,13 +33,55 @@ p {
 }
 
 h1 {
+  position: absolute;
   font-family: "Montserrat", sans-serif;
-  font-weight: 400;
+  font-weight: 900;
   margin: 0 0 20px 0;
   padding: 0;
-  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #1de099, 0 0 30px #1de099, 0 0 40px #1de099, 0 0 55px #1de099, 0 0 75px #1de099;
+  color: #fff;
+  /* text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #1de099, 0 0 30px #1de099, 0 0 40px #1de099, 0 0 55px #1de099, 0 0 75px #1de099; */
+  z-index: 1;
+  overflow: hidden;
 }
 
+h1:before {
+  content: '';
+  position: absolute;
+  left: 120%;
+  width: 120%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent 0%, rgb(0, 0, 0) 5%, rgb(3, 3, 3) 100%);
+  animation: animate 5.5s linear;
+  animation-delay: 3s;
+
+}
+
+@keyframes animate {
+  0% {
+    left: 110%
+  }
+
+  100% {
+    left: -20%
+  }
+}
+
+h1 span {
+  color: red
+}
+
+video {
+  content: '';
+  position: absolute;
+  top: 20%;
+  left: 0%;
+  width: 40%;
+  height: 60%;
+  object-fit: cover;
+  z-index: 2;
+  pointer-events: none;
+  mix-blend-mode: screen;
+}
 
 h2,
 h3,

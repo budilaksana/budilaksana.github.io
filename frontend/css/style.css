@@ -37,7 +37,7 @@ h1 {
   font-family: "Montserrat", sans-serif;
   font-weight: 900;
   left: 0;
-  margin: 0 0 20px 0;
+  /* margin: 0 0 20px 0; */
   padding: 0;
   color: #fff;
   /* text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #1de099, 0 0 30px #1de099, 0 0 40px #1de099, 0 0 55px #1de099, 0 0 75px #1de099; */

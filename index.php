@@ -728,7 +728,17 @@
 
           </div>
         </div>
-        <div class="col-lg-6">
+        <div class="container">
+          <h7>telah dikunjungi</h7>
+          <article>
+          <?php
+                include
+                ("frontend/counter.php");
+                echo "<p style='color:red; font-weight: enchant_broker_list_dicts(broker) '> $kunjungan[0] </p>";
+                ?>
+</article>
+        </div>
+        <div class=" col-lg-6">
           <nav class="footer-links text-lg-right text-center pt-2 pt-lg-0">
             <a href="#intro" class="scrollto">Home</a>
             <a href="#about" class="scrollto">About</a>

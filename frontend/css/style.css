@@ -51,9 +51,9 @@ h1:before {
   left: 120%;
   width: 120%;
   height: 100%;
-  background: linear-gradient(90deg, transparent 0%, #20c9965b 5%, #20c997 100%);
+  background: linear-gradient(90deg, transparent 5%, #f1cf0bec 5%, #d1340c 100%, #140603 50%);
   animation: animate 5.5s linear;
-  animation-delay: 3s;
+  /* animation-delay: 3s; */
 
 }
 
@@ -104,9 +104,10 @@ h7 {
   margin: 0 0 20px 0;
   padding: 0;
   top: 60%;
-  /* left: 10%; */
-  width: 50%;
-  height: 60%;
+  color: #fff;
+  font-size: 10px;
+  width: 60%;
+  height: 40%;
   object-fit: cover;
   z-index: 2;
 }
